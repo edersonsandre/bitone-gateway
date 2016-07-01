@@ -1,0 +1,26 @@
+{
+  "name": "bitone/gateway",
+  "description": "Gateway de pagamentos completo e transparentepara o seu negócio crescer de forma estruturada.",
+  "keywords": ["bit", "bitone", "gateway", "sdk"],
+  "type": "library",
+  "homepage": "",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Éderson Sandre",
+      "email": "ederson.sandre@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "curl/curl": "2.0.0-alpha1"
+  },
+  "minimum-stability":"dev",
+  "autoload": {
+    "psr-4": {
+      "BitOne\Gateway\\":"src/BitOne/Gateway"
+    }
+
+  }
+}
